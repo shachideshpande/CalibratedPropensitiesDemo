@@ -1,0 +1,9 @@
+simset: HGDP
+numunits: 5000
+numsnps: 100
+alpha: none
+seed: 29200017
+snpsig: 0.4
+confint: 0.4
+causalprop: 0.01
+bin_scale: 0.5

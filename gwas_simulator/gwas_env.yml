@@ -1,0 +1,29 @@
+name: gwas
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+  - pytorch
+dependencies:
+  - ipykernel
+  - jax
+  - notebook
+  - numpy
+  - pillow
+  - pip=21.2.4
+  - python=3.8
+  - pytorch::pytorch
+  - pytorch::torchaudio
+  - pytorch::torchvision
+  - pip:
+    - attrdict
+    - ipdb
+    - ipywidgets
+    - matplotlib
+    - pytorch-lightning
+    - scikit-learn
+    - scipy
+    - seaborn
+    - tensorboard
+    - tqdm
+    - PyYaml
